@@ -1,4 +1,4 @@
-##Yelp Rating Regression Predictor
+Yelp Rating Regression Predictor
 
 #Overview
 The Yelp Rating Regression Predictor project aims to predict restaurant ratings on Yelp using a Multiple Linear Regression model. By analyzing a comprehensive dataset provided by Yelp, this project identifies key factors influencing restaurant ratings and forecasts the potential success of a new restaurant, Danielle's Delicious Delicacies.
