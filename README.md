@@ -1,15 +1,15 @@
-Yelp Rating Regression Predictor
+#  Yelp Rating Regression Predictor
 
-#Overview
+## Overview
 The Yelp Rating Regression Predictor project aims to predict restaurant ratings on Yelp using a Multiple Linear Regression model. By analyzing a comprehensive dataset provided by Yelp, this project identifies key factors influencing restaurant ratings and forecasts the potential success of a new restaurant, Danielle's Delicious Delicacies.
 
-#Goals
+## Goals
 Data Integration: Combine multiple datasets from Yelp into a single, cohesive DataFrame.
 Feature Analysis: Identify features that significantly impact Yelp ratings.
 Model Development: Build and evaluate regression models to predict ratings.
 Prediction: Forecast ratings for a new restaurant using the best-performing model.
 
-#Dataset Description
+## Dataset Description
 The project utilizes six .json files from Yelp:
 
 yelp_business.json: Contains business details.
@@ -20,7 +20,7 @@ yelp_tip.json: Contains tip data.
 yelp_photo.json: Contains photo metadata.
 
 
-#Methodology
+## Methodology
 1. Data Preparation
 Loading Data: Import data from .json files into Pandas DataFrames.
 Data Cleaning: Handle missing values and remove unnecessary columns.
@@ -38,7 +38,7 @@ Model Evaluation: Assess model performance using R² scores and visual inspectio
 4. Prediction
 Forecasting: Predict the Yelp rating for Danielle's Delicious Delicacies using the best model.
 
-#Tools and Libraries
+## Tools and Libraries
 Pandas: Data manipulation and analysis.
 NumPy: Numerical operations.
 Scikit-learn: Machine learning model development.
